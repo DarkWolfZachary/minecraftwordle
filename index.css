@@ -1,0 +1,238 @@
+.box {
+  height: 45px;
+  width: 45px;
+  border: 2px solid gray;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.key {
+  height: 35px;
+  width: 25px;
+  margin-left: 1px;
+  margin-bottom: 2px;
+}
+
+.a {
+  margin-left: 12.5px;
+}
+
+.specialkey {
+  height: 35px;
+  width: 35px;
+  margin-left: 1px;
+  margin-bottom: 2px;
+}
+
+.enter {
+  font-size: 9.2px;
+  padding: 0;
+}
+
+.delete {
+  font-size: 15px;
+  padding-top: 3px;
+}
+
+.boxGreen {
+  background-color: #6aaa64;
+
+}
+
+.boxYellow {
+  background-color: #b59f3b;
+}
+
+.boxGray {
+  background-color: #3a3a3c;
+}
+
+.key.key.keyGreen {
+  background-color: #6aaa64;
+
+}
+
+.key.key.keyYellow {
+  background-color: #b59f3b;
+}
+
+.key.key.keyGray {
+  background-color: #67676b;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  font-family: system-ui;
+  font-size: 40px;
+}
+
+.win {
+  color: #ffffff;
+  background-color: #585954ee;
+  font-size: 50px;
+  position: absolute;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.winHide {
+  display: none;
+}
+
+.lose {
+  color: #ffffff;
+  background-color: #585954ee;
+  font-size: 50px;
+  position: absolute;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.loseHide {
+  display: none;
+}
+
+.wordWas {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark .key {
+  border-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark .enter {
+  border-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark .delete {
+  border-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.darkModeButton {
+  border-radius: 12px;
+}
+
+.lightModeButton {
+  display: none;
+  border-radius: 12px;
+}
+
+.dark .lightModeButton {
+  display: inline;
+  border-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark .darkModeButton {
+  display: none;
+}
+
+.lowContrastModeButton {
+  display: none;
+  border-radius: 12px;
+}
+
+.highContrastModeButton {
+  border-radius: 12px;
+
+}
+
+.dark .lowContrastModeButton {
+  border-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark .highContrastModeButton {
+  border-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.highContrast .lowContrastModeButton {
+  display: inline;
+}
+
+.highContrast .highContrastModeButton {
+  display: none;
+}
+
+.highContrast .boxGreen {
+  background-color: #f5793a;
+
+}
+
+.highContrast .boxYellow {
+  background-color: #85c0f9;
+}
+
+.dark .highContrast .boxYellow {
+  color: #000000;
+}
+
+.highContrast .boxGray {
+  background-color: #3a3a3c;
+}
+
+.highContrast .key.key.keyGreen {
+  background-color: #f5793a;
+
+}
+
+.highContrast .key.key.keyYellow {
+  background-color: #85c0f9;
+  color: black;
+}
+
+.highContrast .key.key.keyGray {
+  background-color: #3a3a3c;
+}
+
+.notInWordList {
+  color: #ffffff;
+  background-color: #585954ee;
+  font-size: 20px;
+  position: absolute;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.wordListHide {
+  display: none;
+}
