@@ -76,7 +76,7 @@ function keyPressHandler(e) {
                 var box = document.getElementsByClassName("box")[(row) * 5 + c];
                 word += box.textContent;
             }
-            if (!allWords.includes(word)) {
+            if (!allWords.includes(word) && !getWordList().includes(word)) {
                 var niwl = document.getElementsByClassName("notInWordList")[0];
                 niwl.classList.remove("wordListHide");
                 setTimeout(()=>niwl.classList.add("wordListHide"), 1500);
